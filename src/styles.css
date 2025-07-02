@@ -1,8 +1,14 @@
 body {
-    background: beige;
+  background: beige;
 }
 
-h1, footer {
-    text-align: center;
+h1,
+.city,
+footer {
+  text-align: center;
 }
 
+select {
+  display: block;
+  margin: 0 auto;
+}
