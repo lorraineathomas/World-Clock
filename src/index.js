@@ -49,7 +49,7 @@ function updateCity(event) {
           </div>
           <div>
             <div class="time">${currentCityTime.format(
-              "h:mm:ss"
+              "hh:mm:ss"
             )}<small>${currentCityTime.format("A")}</small></div>
           </div>
         </div>`;
