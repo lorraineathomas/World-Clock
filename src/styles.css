@@ -1,5 +1,17 @@
 body {
-  background: beige;
+  background: rgb(237, 237, 218);
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 650px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 h1,
@@ -8,7 +20,55 @@ footer {
   text-align: center;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 select {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.city {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  border-bottom: 1px dotted rgb(207, 193, 193);
+}
+
+h2 {
+  margin: 5px;
+  font-size: 40px;
+}
+
+.date {
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.time {
+  margin-top: 5%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  cursor: pointer;
 }

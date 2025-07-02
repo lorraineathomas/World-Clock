@@ -5,35 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Lorraine Thomas</title>
     <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
       <select name="" id="">
         <option value="">Choose a city</option>
-        <option value="">Havana 🇨🇺</option>
-        <option value="">Kingston 🇯🇲</option>
-        <option value="">Sydney 🇦🇺</option>
+        <option value="">Havana</option>
+        <option value="">Kingston</option>
+        <option value="">Sydney</option>
       </select>
       <div class="city">
-        <h2>Denver 🇺🇸</h2>
-        <div class="date">July 4th, 2025</div>
-        <div class="time">12:00pm</div>
-        <h2>Toronto 🇨🇦</h2>
-        <div class="date">July 4th, 2025</div>
-        <div class="time">12:00pm</div>
+        <div id="city-time">
+          <h2>Denver</h2>
+          <div class="date">July 4th, 2025</div>
+        </div>
+        <div>
+          <div class="time">11:16:45 <small>PM</small></div>
+        </div>
       </div>
-      <footer>
-        This project was coded by
-        <a href="https://github.com/lorraineathomas" target="_blank"
-          >Lorraine Thomas</a
-        >. <br />
-        <a href="https://github.com/lorraineathomas/World-Clock" target="_blank"
-          >Open-source code</a
-        >
-        on Github
-      </footer>
+      <div class="city">
+        <div class="city-time">
+          <h2>Toronto</h2>
+          <div class="date">July 4th, 2025</div>
+        </div>
+        <div>
+          <div class="time">1:16:45 <small>PM</small></div>
+        </div>
+      </div>
     </div>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/lorraineathomas" target="_blank"
+        ><strong>Lorraine Thomas</strong></a
+      >. <br />
+      <a href="https://github.com/lorraineathomas/World-Clock" target="_blank"
+        >Open-source code</a
+      >
+      on Github
+    </footer>
     <script src="/src/index.js"></script>
   </body>
 </html>
